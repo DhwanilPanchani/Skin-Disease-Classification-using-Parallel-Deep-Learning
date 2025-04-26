@@ -51,7 +51,7 @@ We leverage **multi-GPU Distributed Data Parallel (DDP)** training, **mixed-prec
 
 | Aspect              | Configuration |
 |----------------------|---------------|
-| Model                | EfficientNet-B3 (pretrained) |
+| Model                | EfficientNet-B3  |
 | GPUs                 | 4× A100 40GB GPUs |
 | Parallelism          | DistributedDataParallel (DDP) |
 | Mixed Precision      | Enabled (AMP with GradScaler) |
